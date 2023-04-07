@@ -28,7 +28,7 @@ function myDestinations(destinations){
     dispDestination.appendChild(div)
 }
 //add the date that destinations will be available
-let countDownDate= new Date("Apr 15, 2023 17:16:00").getTime()
+let countDownDate= new Date("Apr 25, 2023 17:16:00").getTime()
 let x=setInterval(function (){
     //todays date
    let now= new Date().getTime()

@@ -94,4 +94,19 @@ body{
     display: flex;
     flex-direction: column;
   }
+
+
+.form-button{
+    display: grid;
+    place-items: center;
+  }
+  
+  #btn{
+    border-radius: 1rem;
+    margin-top: 2rem;
+    transition:all 400ms ease;
+  }
+  #btn:hover{
+    background-color: orangered;
+  }
   

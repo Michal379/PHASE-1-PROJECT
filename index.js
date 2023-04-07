@@ -27,6 +27,25 @@ function myDestinations(destinations){
     `
     dispDestination.appendChild(div)
 }
+//add the date that destinations will be available
+let countDownDate= new Date("Apr 15, 2023 17:16:00").getTime()
+let x=setInterval(function (){
+    //todays date
+   let now= new Date().getTime()
+   //distance from now till the deadline
+   let distance= countDownDate - now
+   //calculations for the date
+   let days= Math.floor(distance/(1000*60*60*24))
+   let hours= Math.floor((distance%(1000*60*60*24))/(1000*60*60))
+   let minutes= Math.floor((distance%(1000*60*60))/(1000*60))
+   let seconds= Math.floor((distance%(1000*60))/1000)
+
+   document.getElementById("demo").innerHTML= days + "d" + hours + "h" + minutes + "m" + seconds + "s"
+   if (distance < 0){
+    clearInterval(x)
+    document.getElementById("demo").innerHTML= "destination not available"
+   }
+})
 
 const form=document.querySelector("#bookings-form").addEventListener( "submit", (e)=>{
     e.preventDefault()

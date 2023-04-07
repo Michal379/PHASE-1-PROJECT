@@ -1,17 +1,18 @@
+//adding event listener to the display form
 document.addEventListener("DOMContentLoaded", ()=>{
     displayDestination()
 })
-
+//fetching destinations
 function displayDestination(){
     fetch("http://localhost:3000/destinations")
     .then(resp=>resp.json())
     .then(favDestinations)
 }
-
+//getting single destinations
 function favDestinations(destinations){
     destinations.forEach(myDestinations)
 }
-
+//creating destinations image card
 function myDestinations(destinations){
     const dispDestination=document.querySelector(".card")
     const div=document.createElement("div")
@@ -46,10 +47,10 @@ let x=setInterval(function (){
     document.getElementById("demo").innerHTML= "destination not available"
    }
 })
-
+//adding eventlistener to the bookings form
 const form=document.querySelector("#bookings-form").addEventListener( "submit", (e)=>{
     e.preventDefault()
-
+//adding values to each form attribute
 const firstName=document.getElementById("fname").value
 const lastName=document.getElementById("lname").value
 const email=document.getElementById("email").value
@@ -57,6 +58,7 @@ const date=document.getElementById("date").value
 const availableDestination=document.getElementById("destination").value
 const paymentForm=document.getElementById("pform").value
 const feedback=document.getElementById("feedback").value
+//making post request of the form attributes
 fetch("http://localhost:3000/travelers",{
     method:"POST",
     headers:{

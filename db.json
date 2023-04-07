@@ -1,0 +1,145 @@
+{
+    "destinations": [
+      {
+        "id": 1,
+        "Name": "Maasai Mara",
+        "Address": 200,
+        "Location": "Narok",
+        "Activities": "Experience the Masai Mara, Saddle on horsebacks, Explore the open Savannah",
+        "Accomodation": " YES!",
+        "image": "http://bitly.ws/CEHo"
+      },
+      {
+        "id": 2,
+        "Name": "Fourteen Falls",
+        "Address": 3000,
+        "Location": "Thika",
+        "Activities": "Tour and sight seeing, Plant identification, Photography",
+        "Accomodation": "NO!",
+        "image": "http://bitly.ws/CEAa"
+      },
+      {
+        "id": 3,
+        "Name": "Mama Ngina's Drive",
+        "Address": 3000,
+        "Location": "Mombasa",
+        "Activities": "Camel rides, Mombasa city tour,Fort Jesus and Haller park tour ",
+        "Accomodation": "NO!",
+        "image": "http://bitly.ws/CEHJ"
+      },
+      {
+        "id": 4,
+        "Name": "Lake Baringo",
+        "Address": 5000,
+        "Location": "Baringo",
+        "Activities": "Bird watching,Amphibians watching, Water sports",
+        "Accomodation": " YES!",
+        "image": "http://bitly.ws/CEHP"
+      },
+      {
+        "id": 5,
+        "Name": "Mt Elgon",
+        "Address": 625,
+        "Location": "East of Nairobi",
+        "Activities": "Natural scenery, Hiking ,Landscape Photography, ",
+        "Accomodation": "NO!",
+        "image": "http://bitly.ws/CEHV"
+      },
+      {
+        "Name": "Fourteen Falls",
+        "Address": 3000,
+        "Location": "Thika",
+        "Activities": "Tour and sight seeing, Plant identification, Photography",
+        "Accomodation": "NO!",
+        "image": "http://bitly.ws/CEAa",
+        "id": 6
+      }
+    ],
+    "travelers": [
+      {
+        "id": 1,
+        "First name": "Millan",
+        "Last name": "Marble",
+        "email": "millan@mali.gmal",
+        "date": "",
+        "payment form": "card",
+        "feedback": ""
+      },
+      {
+        "id": 2,
+        "First name": "Nick",
+        "Last name": "Nature",
+        "email": "nick@natures.gmail",
+        "date": "",
+        "payment form": "card",
+        "feedback": ""
+      },
+      {
+        "id": 3,
+        "First name": "Pauline",
+        "Last name": "Palsey",
+        "email": "pauley@peace.gmail",
+        "date": "",
+        "payment form": "card",
+        "feedback": ""
+      },
+      {
+        "id": 4,
+        "First name": "Jullian",
+        "Last name": "Jules",
+        "email": "jully@julesgmail",
+        "date": "",
+        "payment form": "card",
+        "feedback": ""
+      },
+      {
+        "First name": "Nick",
+        "Last name": "Nature",
+        "email": "nick@natures.gmail",
+        "date": "",
+        "payment form": "card",
+        "feedback": "",
+        "id": 5
+      },
+      {
+        "Firstname": "Michal",
+        "Lastname": "Khakayi",
+        "Email": "michal.khakayi@student.moringaschool.com",
+        "Date": "2023-04-15",
+        "Destination": "",
+        "Paymentform": "",
+        "feedback": "Excited",
+        "id": 7
+      },
+      {
+        "Firstname": "Chantelle",
+        "Lastname": "Grace",
+        "Email": "grace@gmail",
+        "Date": "2023-04-29",
+        "Destination": "",
+        "Paymentform": "",
+        "feedback": "Great experience",
+        "id": 8
+      },
+      {
+        "Firstname": "Maureen",
+        "Lastname": "Murimi",
+        "Email": "maureenmurimi@gmail",
+        "Date": "2023-04-04",
+        "Destination": "Rift valley",
+        "Paymentform": "Paypal",
+        "feedback": "AWesome",
+        "id": 9
+      },
+      {
+        "Firstname": "Michal",
+        "Lastname": "Khakayi",
+        "Email": "michal.khakayi@student.moringaschool.com",
+        "Date": "2023-04-13",
+        "Destination": "Longonot",
+        "Paymentform": "Paypal",
+        "feedback": "cool",
+        "id": 10
+      }
+    ]
+  }

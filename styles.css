@@ -76,3 +76,22 @@ body{
           grid-template-columns: 1fr 1fr ;
           gap: 2rem;
         }
+    
+.about h4, h5{
+    text-align: center;
+  }
+  .about p{
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  #bookings-form input, textarea, select{
+  width:100%;
+  border-radius: 0.5rem;
+  }
+  
+  .form-group{
+    display: flex;
+    flex-direction: column;
+  }
+  

@@ -7,7 +7,7 @@
       "Location": "Narok",
       "Activities": "Experience the Masai Mara, Saddle on horsebacks, Explore the open Savannah",
       "Accomodation": " YES!",
-      "image": "http://bitly.ws/CEHo"
+      "image": "https://bitly.ws/CEHo"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "Location": "Thika",
       "Activities": "Tour and sight seeing, Plant identification, Photography",
       "Accomodation": "NO!",
-      "image": "http://bitly.ws/CEAa"
+      "image": "https://bitly.ws/CEAa"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "Location": "Mombasa",
       "Activities": "Camel rides, Mombasa city tour,Fort Jesus and Haller park tour ",
       "Accomodation": "NO!",
-      "image": "http://bitly.ws/CEHJ"
+      "image": "https://bitly.ws/CEHJ"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "Location": "Baringo",
       "Activities": "Bird watching,Amphibians watching, Water sports",
       "Accomodation": " YES!",
-      "image": "http://bitly.ws/CEHP"
+      "image": "https://bitly.ws/CEHP"
     },
     {
       "id": 5,
@@ -43,17 +43,9 @@
       "Location": "East of Nairobi",
       "Activities": "Natural scenery, Hiking ,Landscape Photography, ",
       "Accomodation": "NO!",
-      "image": "http://bitly.ws/CEHV"
-    },
-    {
-      "Name": "Fourteen Falls",
-      "Address": 3000,
-      "Location": "Thika",
-      "Activities": "Tour and sight seeing, Plant identification, Photography",
-      "Accomodation": "NO!",
-      "image": "http://bitly.ws/CEAa",
-      "id": 6
+      "image": "https://bitly.ws/CEHV"
     }
+    
   ],
   "travelers": [
     {

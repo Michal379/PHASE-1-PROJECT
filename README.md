@@ -17,6 +17,7 @@ Tourist should be able to see the time the destination is available for bookings
 Tourist should be able to choose a prefferable deatination.
 Tourist should be able to leave a feedback in accordance to their experience.
 
+You should run the json using the following command `json-server --watch db.json`
 
 ## API Reference
 
@@ -48,5 +49,5 @@ Install my-project to your page using this provided github link: https://github.
 Author: Michal Khakayi.
 
 ## License
-
+This project is a copyright of Michal published in 2023.
 github Michal @ 2023.

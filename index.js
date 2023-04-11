@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
     displayDestination()
 })
 //fetching destinations
-function displayDestination(){
-    fetch("http://localhost:3000/destinations")
+async function displayDestination(){
+  fetch("http://localhost:3000/destinations")
     .then(resp=>resp.json())
     .then(favDestinations)
    }
@@ -47,6 +47,10 @@ let x=setInterval(function (){
     document.getElementById("demo").innerHTML= "destination not available"
    }
 })
+//adding eventlistener to the checkmate buttton
+const about=document.querySelector(".about").addEventListener("click", (e)=>{
+    e.preventDefault()
+})
 //adding eventlistener to the bookings form
 const form=document.querySelector("#bookings-form").addEventListener( "submit", (e)=>{
     e.preventDefault()
@@ -59,7 +63,7 @@ const availableDestination=document.getElementById("destination").value
 const paymentForm=document.getElementById("pform").value
 const feedback=document.getElementById("feedback").value
 //making post request of the form attributes
-fetch("http://localhost:3000/travelers",{
+ fetch("http://localhost:3000/travelers",{
     method:"POST",
     headers:{
         "Content-Type":"application/json"
